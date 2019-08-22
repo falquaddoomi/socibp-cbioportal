@@ -99,6 +99,13 @@ The CIViC API url is set to https://civic.genome.wustl.edu/api/ by default. It c
 civic.url=
 ```
 
+# SVIP integration
+
+SVIP integration can be turned on or off with the following property (default: true):
+```
+show.svip=true|false
+```
+
 # OncoPrint
 
 The default view in OncoPrint ("patient" or "sample") can be set with the following option. The default is "patient".

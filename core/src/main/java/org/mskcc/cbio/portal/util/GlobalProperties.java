@@ -250,6 +250,10 @@ public class GlobalProperties {
     @Value("${show.civic:false}") // default is false
     public void setShowCivic(String property) { showCivic = Boolean.parseBoolean(property); }
 
+    private static boolean showSVIP;
+    @Value("${show.svip:false}") // default is false
+    public void setShowCivic(String property) { showSVIP = Boolean.parseBoolean(property); }
+
     private static boolean sitemaps;
     @Value("${sitemaps:false}") // default is false
     public void setSitemaps(String property) { sitemaps = Boolean.parseBoolean(property); }
