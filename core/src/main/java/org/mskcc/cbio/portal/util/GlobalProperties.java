@@ -252,7 +252,7 @@ public class GlobalProperties {
 
     private static boolean showSVIP;
     @Value("${show.svip:false}") // default is false
-    public void setShowCivic(String property) { showSVIP = Boolean.parseBoolean(property); }
+    public void setShowSVIP(String property) { showSVIP = Boolean.parseBoolean(property); }
 
     private static boolean sitemaps;
     @Value("${sitemaps:false}") // default is false
