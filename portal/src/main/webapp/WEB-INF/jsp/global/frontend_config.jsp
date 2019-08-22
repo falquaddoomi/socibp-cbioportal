@@ -12,6 +12,7 @@ window.legacySupportFrontendConfig = {
     oncoKBApiUrl : '<%=GlobalProperties.getOncoKBPublicApiUrl()%>',
     genomeNexusApiUrl : '<%=GlobalProperties.getGenomeNexusApiUrl()%>',
     showCivic : <%=GlobalProperties.showCivic()%>,
+    showSVIP : <%=GlobalProperties.showSVIP()%>,
     showHotspot : <%=GlobalProperties.showHotspot()%>,
     showMyCancerGenome : <%=GlobalProperties.showMyCancerGenomeUrl()%>,
     showGenomeNexus : <%=GlobalProperties.showGenomeNexus()%>,

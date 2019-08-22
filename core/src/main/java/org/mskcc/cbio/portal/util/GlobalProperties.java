@@ -917,6 +917,10 @@ public class GlobalProperties {
         return showCivic;
     }
 
+    public static boolean showSVIP() {
+        return showSVIP;
+    }
+
     public static boolean showGenomeNexus() {
         return showGenomeNexus;
     }
