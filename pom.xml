@@ -229,6 +229,10 @@
   </profiles>
 
   <properties>
+    <frontend.version>v1.17.1</frontend.version>
+    <frontend.repo>cbioportal-frontend</frontend.repo>
+    <frontend.groupId>com.github.cbioportal</frontend.groupId>
+
     <slf4j.version>1.6.6</slf4j.version>
     <spring.version>4.3.14.RELEASE</spring.version>
     <spring.context.support.version>4.3.14.RELEASE</spring.context.support.version>

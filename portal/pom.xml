@@ -105,9 +105,9 @@
             <configuration>
               <artifactItems>
                 <artifactItem>
-                  <groupId>com.github.cbioportal</groupId>
-                  <artifactId>cbioportal-frontend</artifactId>
-                  <version>v1.17.1</version>
+                  <groupId>${frontend.groupId}</groupId>
+                  <artifactId>${frontend.repo}</artifactId>
+                  <version>${frontend.version}</version>
                   <type>jar</type>
                   <outputDirectory>.</outputDirectory>
                   <excludes>*index*</excludes>
@@ -214,7 +214,7 @@
         <filter>../src/main/resources/portal.properties</filter>
         <filter>../src/main/resources/maven.properties</filter>
     </filters>
-    
+
     <!-- prevent some resources from getting into war -->
     <resources>
       <resource>
